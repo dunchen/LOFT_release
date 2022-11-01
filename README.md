@@ -2,8 +2,11 @@
 
 # Pretraining
 python3 filterwise_IST_imagenet_2xresnet18.py --rank=0 --cuda-id=0 --resume=0 &
+
 python3 filterwise_IST_imagenet_2xresnet18.py --rank=1 --cuda-id=1 --resume=0 &
+
 python3 filterwise_IST_imagenet_2xresnet18.py --rank=2 --cuda-id=2 --resume=0 &
+
 python3 filterwise_IST_imagenet_2xresnet18.py --rank=3 --cuda-id=3 --resume=0 &
 
 # Pruning
